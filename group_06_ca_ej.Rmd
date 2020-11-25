@@ -22,8 +22,8 @@ ces<- read.csv(here("data", "ces3demographics.csv")) %>%
 ggplot(data = ces, aes(x=white, y=ces_3_0_score)) +
   geom_point()+
   geom_hex()+
-  scale_fill_gradient(low = "darkorchid4", high = "magenta") +
-  labs(x="White Percentage Population", y="CalEnviroScreen 3.0" ) +
+  scale_fill_gradient(low = "navy", high = "orange") +
+  labs(x="White Percentage Population", y="CalEnviroScreen 3.0", title = "High Polution Burdend Realted the Percentage Population" ) +
   theme_minimal()
   
 ```
