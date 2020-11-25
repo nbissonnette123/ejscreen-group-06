@@ -28,3 +28,4 @@ ggplot(data = ces, aes(x=white, y=ces_3_0_score)) +
   
 ```
 
+This graph illustrates an overall trend that the percentage of white population in a community appears to be negatively correlated with high total CES 3.0 scores.
